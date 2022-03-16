@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <title>One Page Wander</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav>
@@ -28,7 +30,6 @@
                 </li>
             </ul>
         </div>
-
     </nav>
 
     <!-- Header -->
@@ -42,36 +43,45 @@
 
     <!-- The main part of the page. ONLY ONCE PER PAGE! -->
     <main>
-        <!-- Bloc 1 -->
-        <section>
-            <div>
-                <h1>For those about to rock...</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio in libero quis voluptas facere! Minus, at?</p>
-            </div>          
-            <img src="imag/monkey.jpg" alt="monkey with guitare">            
-        </section>
-        <!-- Bloc 2 -->
-        <section>
-            <img src="imag/acoustic.jpg" alt="acoustic player"> 
-            <div>
-                <h1>We salute you!</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio in libero quis voluptas facere! Minus, at?</p>
-            </div>                     
-        </section>
-        <!-- Bloc 3 -->
-        <section>
-            <div>
-                <h1>Let there be rock!</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio in libero quis voluptas facere! Minus, at?</p>
-            </div>
-            <img src="imag/yellow.png" alt="yellow guitare image">            
-        </section>         
-    </main>  
+        <div class="container">
+            <!-- Bloc 1 -->
+            <section>
+                <div class="left-container">
+                    <h3>For those about to rock...</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem
+                            architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio
+                            in libero quis voluptas facere! Minus, at?</p>
+                </div>
+                <img class="img-right" src="imag/monkey.jpg" alt="monkey with guitare">
+            </section>
+            <!-- Bloc 2 -->
+            <section>
+                <img class="img-left" src="imag/acoustic.jpg" alt="acoustic player">
+                <div class="right-container">
+                    <h3>We salute you!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem
+                            architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio
+                            in libero quis voluptas facere! Minus, at?</p>
+                </div>
+            </section>
+            <!-- Bloc 3 -->
+            <section>
+                <div class="left-container">
+                    <h3>Let there be rock!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur consequatur dolorem
+                            architecto dolor autem necessitatibus temporibus aliquam accusamus, nesciunt nemo sed odio
+                            in libero quis voluptas facere! Minus, at?</p>
+                </div>
+                <img class="img-right" src="imag/yellow.png" alt="yellow guitare image">
+            </section>
+        </div>
+    </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="container">
         <p>All Rights reserved &copy; <strong>ACS Auxerre 2021</strong></p>
         <p>Made with love <strong>by Me!</strong></p>
     </footer>
 </body>
+
 </html>
